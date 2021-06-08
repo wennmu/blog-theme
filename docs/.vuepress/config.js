@@ -28,6 +28,7 @@ module.exports = {
 				items: [{
 					text: '避坑指南',
 					link: '/golang-pit-guide/'
+<<<<<<< HEAD
 				},
 					{
 						text: '代码片段',
@@ -42,6 +43,8 @@ module.exports = {
 				items: [{
 					text: '代码片段',
 					link: '/linux/code-snippet/'
+=======
+>>>>>>> b3139e8b8f4a216b385cfe20b7c783792ad04b11
 				}
 				]
 			},
@@ -93,6 +96,7 @@ module.exports = {
 					collapsable: false,
 					children: autosidebar("/golang-pit-guide/")
 				}],
+<<<<<<< HEAD
 			'/linux/code-snippet/': [
 				{
 					title: '代码片段',
@@ -105,6 +109,8 @@ module.exports = {
 					collapsable: false,
 					children: autosidebar("/golang/code-snippet/")
 				}],
+=======
+>>>>>>> b3139e8b8f4a216b385cfe20b7c783792ad04b11
 			'/nginx/config/': [
 				{
 					title: '配置',
@@ -145,7 +151,11 @@ module.exports = {
 		// sidebar: 'auto',
 
 		// 最后更新时间
+<<<<<<< HEAD
 		// lastUpdated: '最近更新时间',
+=======
+		lastUpdated: 'Last Updated',
+>>>>>>> b3139e8b8f4a216b385cfe20b7c783792ad04b11
 		// noFoundPageByTencent: true,
 		// subSidebar: 'auto',
 		/**
