@@ -28,6 +28,20 @@ module.exports = {
 				items: [{
 					text: '避坑指南',
 					link: '/golang-pit-guide/'
+				},
+					{
+						text: '代码片段',
+						link: '/golang/code-snippet/'
+					}
+				]
+			},
+			{
+				text: 'Linux',
+				icon: "reco-document",
+
+				items: [{
+					text: '代码片段',
+					link: '/linux/code-snippet/'
 				}
 				]
 			},
@@ -79,6 +93,18 @@ module.exports = {
 					collapsable: false,
 					children: autosidebar("/golang-pit-guide/")
 				}],
+			'/linux/code-snippet/': [
+				{
+					title: '代码片段',
+					collapsable: false,
+					children: autosidebar("/linux/code-snippet/")
+				}],
+			'/golang/code-snippet/': [
+				{
+					title: '代码片段',
+					collapsable: false,
+					children: autosidebar("/golang/code-snippet/")
+				}],
 			'/nginx/config/': [
 				{
 					title: '配置',
@@ -119,7 +145,7 @@ module.exports = {
 		// sidebar: 'auto',
 
 		// 最后更新时间
-		lastUpdated: 'Last Updated',
+		// lastUpdated: '最近更新时间',
 		// noFoundPageByTencent: true,
 		// subSidebar: 'auto',
 		/**
