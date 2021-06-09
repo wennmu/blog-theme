@@ -12,20 +12,11 @@
     "vuepress-plugin-auto-sidebar": "^2.2.3",
     "vuepress-plugin-autobar": "github:boboidream/vuepress-bar",
     "vuepress-theme-reco": "^1.6.6",
-<<<<<<< HEAD
     "webpack-dev-middleware": "^3.6.0"
   },
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-=======
-    "vuepress-theme-wennmu": "^1.0.0",
-    "webpack-dev-middleware": "^3.6.0"
-  },
-  "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
->>>>>>> b3139e8b8f4a216b385cfe20b7c783792ad04b11
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
