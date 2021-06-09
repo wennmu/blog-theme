@@ -18,7 +18,7 @@ categories:
 最好还是用gorm去吧，记得用gorm 2.x 版本
 :::
 
-###直接贴代码
+### 直接贴代码
 
 ```go
 package main
@@ -108,7 +108,7 @@ func main() {
 }
 ```
 
-###运行结果：
+### 运行结果：
 
 ```go
 GET result: {1 beijing 2021-06-09}
@@ -119,7 +119,7 @@ NamedQuery(bind) result: [{1 beijing 2021-06-09}]
 count_estimate result: 330
 ```
 
-###可能遇到的一些报错
+### 可能遇到的一些报错
 
 - pq: SSL is not enabled on the server
 
@@ -142,7 +142,7 @@ count_estimate result: 330
   github.com/lib/pq
   ```
 
-  scannable dest type struct with >1 columns (3) in result
+- scannable dest type struct with >1 columns (3) in result
 
   ```go
   type T struct {
